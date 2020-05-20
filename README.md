@@ -42,9 +42,9 @@ This course will focus on the latest LTS version of Ubuntu (20.04), but the skil
 - Basic systems programming
 - Building your own Unix tools
 
-## Source materials
+## Sources
 
-### Courses
+### University courses
 
 - [Cornell CS 2043 (Spring 2014) - Unix Tools & Scripting](https://www.cs.cornell.edu/courses/cs2043/2014sp/)
 - [Stanford CS 1U - Practical Unix](https://practicalunix.org/)
@@ -100,23 +100,34 @@ It will feel like a real struggle and you *will* get frustrated. That's ok, thou
     - [Vagrant documentation](https://www.vagrantup.com/docs/)
     - [Official Ubuntu 20.04 Vagrant box](https://app.vagrantup.com/ubuntu/boxes/focal64)
 2. Introduction to Unix
-    - Navigating the file system
+    - Files and the file system
     - Basic CLI utilities
+    - Permissions
     - Working with text files
     - Pipes and redirecting
+    - Packages and the package manager
+    - Completion and history
+3. Advanced basics
+    - The environment
     - Grep and regular expressions
-3. Streams, processes, and jobs
-4. Text manipulation with awk and sed
-5. Vim
-6. Bash shell scripting
-7. Python scripting
-8. Git and GitHub
-9. Automation and timing
-10. Terminal multiplexing with tmux
-11. C programming
-12. Make and Unix build tools
-13. Basic systems programming with C
-14. Building your own Unix tools
+    - Storage media
+    - Searching for things
+    - Formatting output
+    - Archiving and backup
+    - Compiling from source
+4. Streams, processes, and jobs
+5. Text processing, awk, and sed
+6. Vim
+7. Basic networking
+8. Bash shell scripting
+9. Python scripting
+10. Git and GitHub
+11. Automation and timing
+12. Terminal multiplexing with tmux
+13. C programming
+14. Make and Unix build tools
+15. Basic systems programming with C
+16. Building your own Unix tools
 
 ## License
 
