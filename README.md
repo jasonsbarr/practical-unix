@@ -27,10 +27,10 @@ This course will focus on the latest LTS version of Ubuntu (20.04), but the skil
 - Introduction to Unix
 - Navigating the file system
 - Using the package manager
-- Working with files, streams, and text
+- Working with files and text
 - Grep and regular expressions
-- Text manipulation with Awk and Sed
 - Streams, processes and jobs
+- Text manipulation with Awk and Sed
 - Vim
 - Bash shell scripting
 - Python shell scripting
@@ -41,6 +41,82 @@ This course will focus on the latest LTS version of Ubuntu (20.04), but the skil
 - Make and build systems
 - Basic systems programming
 - Building your own Unix tools
+
+## Source materials
+
+### Courses
+
+- [Cornell CS 2043 (Spring 2014) - Unix Tools & Scripting](https://www.cs.cornell.edu/courses/cs2043/2014sp/)
+- [Stanford CS 1U - Practical Unix](https://practicalunix.org/)
+- [Berkeley CS 9E - Productive Use of the Unix Environment](https://selfpaced.bitbucket.io/#/unix/calendar)
+- [Penn CIS 191 - Linux and Unix](https://www.cis.upenn.edu/~cis191/)
+- [MIT - The Missing Semester of Your CS Education](https://missing.csail.mit.edu/)
+- [Michigan - Computing for Computer Scientists](https://c4cs.github.io/archive/w18/)
+- [Carnegie Mellon 07-131 - Great Practical Ideas in CS](https://www.cs.cmu.edu/~07131/f19/)
+- [Carnegie Mellon 15-123 (Spring 2011) - Effective Programming in C and Unix](https://www.cs.cmu.edu/~guna/15-123S11/)
+- [Miami CSC 322 (2002) - C Programming and Unix](https://www.cs.miami.edu/home/schulz/CSC322.html)
+- [Harvard CS 50](https://www.youtube.com/playlist?list=PLhQjrBD2T381L3iZyDTxRwOBuUt6m1FnW) (lectures 1-5)
+
+### Books, study notes, etc.
+
+- [*GNU Coreutils*](https://www.gnu.org/software/coreutils/manual/html_node/index.html) (freely available)
+- [*Small, Sharp Software Tools: Harness the Combinatoric Power of Command-Line Tools and Utilities*](https://pragprog.com/book/bhcldev/small-sharp-software-tools), by Brian P. Hogan
+- [*The Linux Command Line: A Complete Introduction*](http://linuxcommand.org/tlcl.php), by William Shotts (freely available)
+- [*A Practical Guide to Linux Commands, Editors, and Shell Programming*, 4th ed.](https://www.amazon.com/Practical-Guide-Commands-Editors-Programming/dp/013308504X), by Mark G. Sobell & Matthew Helmke
+- [*grep Pocket Reference: A Quick Pocket Reference for a Utility Every Unix User Needs*](https://www.amazon.com/grep-Pocket-Reference-Utility-OReilly/dp/0596153600), by John Bambenek & Agnieszka Klus
+- [*Learning Regular Expressions*](https://www.amazon.com/Learning-Regular-Expressions-Ben-Forta/dp/0134757068), by Ben Forta
+- [*sed & awk*, 2nd ed.](https://www.amazon.com/sed-awk-Dale-Dougherty/dp/1565922255), by Dale Dougherty & Arnold Robbins
+- [*Modern Vim: Craft Your Development Environment with Vim 8 and Neovim*](https://pragprog.com/book/modvim/modern-vim), by Drew Neil
+- [*Advanced Bash-Scripting Guide*](https://tldp.org/LDP/abs/html/), by Mendel Cooper (freely available)
+- [*Beginning Git and GitHub: A Comprehensive Guide to Version Control, Project Management, and Teamwork for the New Developer*](https://www.amazon.com/Beginning-Git-GitHub-Comprehensive-Management/dp/1484253124), by Mariot Tsitoara
+- [*Pro Git*, 2nd ed.](https://git-scm.com/book/en/v2), by Scott Chacon & Ben Straub (freely available)
+- [*Tmux 2: Productive Mouse-Free Development*](https://pragprog.com/book/bhtmux2/tmux-2), by Brian P. Hogan
+- [*Head First C*](https://www.amazon.com/Head-First-C-Brain-Friendly-Guide/dp/1449399916), by David Griffiths & Dawn Griffiths
+- [*Learn C Programming Tutorial*](https://fresh2refresh.com/c-programming/) (freely available)
+- [*Essential C*](http://cslibrary.stanford.edu/101/), by Nick Parlante (freely available)
+- [*Pointers and Memory*](http://cslibrary.stanford.edu/102/), by Nick Parlante (freely available)
+- [*Unix Programming Tools*](http://cslibrary.stanford.edu/107/), by Stanford Faculty (freely available)
+- [*The GNU Make Book*](https://nostarch.com/gnumake), by John Graham-Cumming
+- [*GNU Make Manual*](https://www.gnu.org/software/make/manual/make.html) (freely available)
+- [*Introduction to Systems Programming: a Hands-on Approach*](https://www.cs.purdue.edu/homes/grr/SystemsProgrammingBook/), by Gustavo A. Junipero Rodriguez-Rivera & Justin Ennen (freely available)
+
+## Assessment and best practices for learning
+
+There is no formal assessment for this course. Projects will be chosen from the various materials used to cover course topics. You win if you can get them all to work properly.
+
+Doing as many practice exercises and programming projects as possible is far more important than consuming additional information (e.g. reading more books or tutorials) for getting the material to stick in your brain. You should also take notes on the readings and other materials, and quiz yourself regularly. Give yourself as many chances to practice your recall of the material as possible.
+
+Close the book or turn off the computer screen, turn over your notes so you can't look at them, then ask yourself the question, and then say aloud or write down the answer. Then go back to the material to check if you were right. If you were wrong, make notes! Don't just be wrong; make a note of the correct answer and give yourself additional opportunities to get it right.
+
+Practice "[holistic learning](https://www.scotthyoung.com/blog/Programs/HolisticLearningEBook.pdf)."
+
+Keep a "Feynman notebook" of the course materials as you go. Write as much of the material as you can from memory. If you can do this, you've got it down. ([information about the Feynman technique](https://collegeinfogeek.com/feynman-technique/))
+
+It will feel like a real struggle and you *will* get frustrated. That's ok, though&ndash;when you're struggling the most is the time when your brain is really working to learn the material! The struggle bus is the only path to true mastery.
+
+## Course materials
+
+1. Installing Linux on a virtual machine
+    - [Vagrant documentation](https://www.vagrantup.com/docs/)
+    - [Official Ubuntu 20.04 Vagrant box](https://app.vagrantup.com/ubuntu/boxes/focal64)
+2. Introduction to Unix
+    - Navigating the file system
+    - Basic CLI utilities
+    - Working with text files
+    - Pipes and redirecting
+    - Grep and regular expressions
+3. Streams, processes, and jobs
+4. Text manipulation with awk and sed
+5. Vim
+6. Bash shell scripting
+7. Python scripting
+8. Git and GitHub
+9. Automation and timing
+10. Terminal multiplexing with tmux
+11. C programming
+12. Make and Unix build tools
+13. Basic systems programming with C
+14. Building your own Unix tools
 
 ## License
 
