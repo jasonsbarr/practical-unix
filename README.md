@@ -4,7 +4,7 @@ This is an introduction to the Unix command line and some of the most important 
 
 In addition to the specific command line tools covered, we will also have a crash course on C and learn two different ways to program the Unix system:
 
-- Scripting (Bash, Python)
+- Scripting (Bash)
 - Using system APIs (C)
 
 Fluency in Unix is an indispensible skill for a software engineer. Unix is everywhere: servers, development environments, virtual machines, containers... the reality is if you're not comfortable in a Unix environment you'll be at a serious disadvantage relative to other developers who are.
@@ -33,7 +33,6 @@ This course will focus on the latest LTS version of Ubuntu (20.04), but the skil
 - Text manipulation with Awk and Sed
 - Vim
 - Bash shell scripting
-- Python shell scripting
 - Version control (Git and GitHub)
 - Automation and timing (cron, etc.)
 - Terminal multiplexing (tmux)
@@ -64,7 +63,6 @@ This course will focus on the latest LTS version of Ubuntu (20.04), but the skil
 - [*The Linux Command Line: A Complete Introduction*](http://linuxcommand.org/tlcl.php), by William Shotts (freely available)
 - [*A Practical Guide to Linux Commands, Editors, and Shell Programming*, 4th ed.](https://www.amazon.com/Practical-Guide-Commands-Editors-Programming/dp/013308504X), by Mark G. Sobell & Matthew Helmke
 - [*grep Pocket Reference: A Quick Pocket Reference for a Utility Every Unix User Needs*](https://www.amazon.com/grep-Pocket-Reference-Utility-OReilly/dp/0596153600), by John Bambenek & Agnieszka Klus
-- [*Learning Regular Expressions*](https://www.amazon.com/Learning-Regular-Expressions-Ben-Forta/dp/0134757068), by Ben Forta
 - [*sed & awk*, 2nd ed.](https://www.amazon.com/sed-awk-Dale-Dougherty/dp/1565922255), by Dale Dougherty & Arnold Robbins
 - [*Modern Vim: Craft Your Development Environment with Vim 8 and Neovim*](https://pragprog.com/book/modvim/modern-vim), by Drew Neil
 - [*Advanced Bash-Scripting Guide*](https://tldp.org/LDP/abs/html/), by Mendel Cooper (freely available)
@@ -101,15 +99,15 @@ It will feel like a real struggle and you *will* get frustrated. That's ok, thou
     - [Official Ubuntu 20.04 Vagrant box](https://app.vagrantup.com/ubuntu/boxes/focal64)
 2. Introduction to Unix
     - Files and the file system
-    - Basic CLI utilities
     - Permissions
     - Working with text files
+    - Moving and copying
     - Pipes and redirecting
     - Packages and the package manager
     - Completion and history
 3. Advanced basics
-    - The environment
-    - Grep and regular expressions
+    - The shell environment
+    - User management and advanced permissions (ACLs)
     - Storage media
     - Searching for things
     - Formatting output
@@ -120,14 +118,12 @@ It will feel like a real struggle and you *will* get frustrated. That's ok, thou
 6. Vim
 7. Basic networking
 8. Bash shell scripting
-9. Python scripting
-10. Git and GitHub
-11. Automation and timing
-12. Terminal multiplexing with tmux
-13. C programming
-14. Make and Unix build tools
-15. Basic systems programming with C
-16. Building your own Unix tools
+9.  Git and GitHub
+10. Automation and timing
+11. Terminal multiplexing with tmux
+12. C programming
+13. Make and Unix build tools
+14. Basic systems programming with C
 
 ## License
 
